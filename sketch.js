@@ -12,6 +12,9 @@ function setup(){
   ship = createSprite(130, 270, 10, 10);
   ship.addAnimation("navio", shipImg)
   ship.scale = 0.3;
+
+  sea.x = sea.width/2;
+  sea.velocityX = -2;
 }
 
 function draw() {
